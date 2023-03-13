@@ -8,8 +8,6 @@ server:
 ---
 spring:
   profiles: local
-  application:
-   name: DEPARTMENT-SERVICE   #this name will use by service registery on erueka server ui  
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:xe
     driver-class-name: oracle.jdbc.driver.OracleDriver
