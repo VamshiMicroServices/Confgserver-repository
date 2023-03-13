@@ -3,14 +3,12 @@ spring:
     active: local
 server:
   port: 8081
-
-  
 ---
 spring:
   profiles: local
   application:
-    #name: DEPARTMENT-SERVICE   this name will use by service registery on erueka server ui  
-  datasource:
+    #name: DEPARTMENT-SERVICE   this name will use by service registery on erueka server UI  
+   datasource:
     url: jdbc:oracle:thin:@localhost:1521:xe
     driver-class-name: oracle.jdbc.driver.OracleDriver
     username: system
